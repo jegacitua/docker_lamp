@@ -1,0 +1,11 @@
+[Wed Nov 24 17:34:34.417218 2021] [mpm_prefork:notice] [pid 1] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 24 17:34:34.492681 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Wed Nov 24 17:34:34.493123 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Nov 24 17:42:06.535367 2021] [:error] [pid 140] [client 172.25.0.1:54826] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Chile', we selected the timezone 'UTC' for now. in /var/www/html/phpinfo.php on line 2
+[Wed Nov 24 17:51:47.845244 2021] [:error] [pid 141] [client 172.25.0.1:54852] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
+[Wed Nov 24 17:51:51.751661 2021] [:error] [pid 142] [client 172.25.0.1:54854] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Chile', we selected the timezone 'UTC' for now. in /var/www/html/phpinfo.php on line 2
+[Wed Nov 24 17:51:54.253083 2021] [:error] [pid 142] [client 172.25.0.1:54854] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
+[Wed Nov 24 17:51:56.928164 2021] [:error] [pid 144] [client 172.25.0.1:54858] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
+[Wed Nov 24 17:51:57.109356 2021] [:error] [pid 143] [client 172.25.0.1:54862] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
+[Wed Nov 24 17:51:57.258502 2021] [:error] [pid 145] [client 172.25.0.1:54866] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4

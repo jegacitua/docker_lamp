@@ -55,3 +55,12 @@ git checkout rf-01      // se cambia a la nueva rama
 git remote add origin https://github.com/jegacitua/docker_lamp.git
 git push -u origin master
 
+
+CAMBIO DE CONFIGURACIONES PHP
+
+/php/php.ini
+
+
+REINICIAR SERVICIO APACHE
+
+/etc/init.d/apache2 reload
