@@ -1,5 +1,8 @@
 # docker-lamp
 
+Instalar docker
+Instalar 
+
 Docker con Apache, MySql 8.0, PhpMyAdmin and PHP 5.6.40
 
 - Puedes usar MariaDB 10.1 si cambias el tag image: por 'mariadb-10.1'
