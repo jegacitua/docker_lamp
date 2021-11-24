@@ -42,22 +42,42 @@
 
 
 
+        
 
-		<div class="col-md-10" id="count()" style="display:none">
-            <textarea cols='80' rows='10'>
+        <div class="col-md-10" id="count()" style="display:none">
+            <h2>
+				count()
+			</h2>
+			<textarea cols='103' rows='10'>
             $a[0] = 1;
             $a[1] = 3;
             $a[2] = 5;
-            </textarea>
-            <br>
-            Respuesta
-            <?php
-            $a[0] = 1;
-            $a[1] = 3;
-            $a[2] = 5;
-            var_dump(count($a));
-            ?>
+			</textarea>
+			<br>
+            <div class="row">
+            <div class="col-md-6">
+                Respuesta:
+                <?php
+                $a[0] = 1;
+                $a[1] = 3;
+                $a[2] = 5;
+                var_dump(count($a));
+                ?>
+            </div>
+            <div class="col-md-6" style="align:left">
+                <button type="button" onclick="myFunction('count()')" class="btn btn-primary btn-sm">
+				Cerrar
+			</button>
+            </div>
+
+            </div>
 		</div>
+
+
+
+
+
+
 
 
 
@@ -65,16 +85,40 @@
 
 
         <div class="col-md-10" id="array()" style="display:none">
+            <h2>
+				array()
+			</h2>
+			<textarea cols='103' rows='10'>
+            
+			</textarea>
+			<br>
+            <div class="row">
+            <div class="col-md-6">
+                Respuesta:
+                <?php
+                
+                ?>
+            </div>
+            <div class="col-md-6" style="align:left">
+                <button type="button" onclick="myFunction('array()')" class="btn btn-primary btn-sm">
+				Cerrar
+			</button>
+            </div>
 
+            </div>
 		</div>
 
 
 
 
+        
 
 
         <div class="col-md-10" id="in_array()" style="display:none">
-            <textarea cols='80' rows='10'>
+            <h2>
+                in_array()
+			</h2>
+			<textarea cols='103' rows='10'>
             $os = array("Mac", "NT", "Irix", "Linux");
 
             if (in_array("Irix", $os)) {
@@ -83,20 +127,32 @@
             if (in_array("mac", $os)) {
                 echo "Existe mac";
             }
-            </textarea>
-            <br>
-            Respuesta
-            <?php
-            $os = array("Mac", "NT", "Irix", "Linux");
+			</textarea>
+			<br>
+            <div class="row">
+            <div class="col-md-6">
+                Respuesta:
+                <?php
+                $os = array("Mac", "NT", "Irix", "Linux");
+    
+                if (in_array("Irix", $os)) {
+                    echo "Existe Irix";
+                }
+                if (in_array("mac", $os)) {
+                    echo "Existe mac";
+                }
+                ?>
+            </div>
+            <div class="col-md-6" style="align:left">
+                <button type="button" onclick="myFunction('in_array()')" class="btn btn-primary btn-sm">
+				Cerrar
+			</button>
+            </div>
 
-            if (in_array("Irix", $os)) {
-                echo "Existe Irix";
-            }
-            if (in_array("mac", $os)) {
-                echo "Existe mac";
-            }
-            ?>
+            </div>
 		</div>
+
+
 
 
 
@@ -110,6 +166,7 @@
     function myFunction(div) {
         //alert(div);
         var x = document.getElementById(div);
+
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
