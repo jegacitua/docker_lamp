@@ -30,11 +30,18 @@ Comandos para Git
 
 git init
 git status
-git add .
 
+git config --global user.mail "je.gacituab@gmail.com"
+git config --global user.name "jegacitua"
 
-.gitignore
-git commit -m "first commit"
 git add .
-git branch
-git branch -M main
+git commit -m "inicio del proyecto"
+git status
+
+git branch              // lista las ramas disponibles
+git branch rf-01        // crear una nueva rama
+git checkout rf-01      // se cambia a la nueva rama
+
+git remote add origin https://github.com/jegacitua/docker_lamp.git
+git push -u origin master
+
