@@ -4,6 +4,12 @@ Instalar docker para la version de tu sistema operativo
 docker-compose, es proveido por la instalacion de Docker Engine por lo tanto
 revisa con el siguiente comando "docker-compose -v" su versión
 
+Instala Git para la version de tu sistema operativo
+
+Para descargar el proyecto abre una terminal en tu carpeta donde desees almacenar
+los proyectos y con una terminal o consola lanza el siguiente comando:
+git clone https://github.com/jegacitua/docker_lamp.git
+
 DOCKER DEL PROYECTO
 Docker con Apache, MySql 8.0, PhpMyAdmin and PHP 5.6.40
 
