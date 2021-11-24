@@ -311,3 +311,4 @@
 172.25.0.3:80 172.25.0.1 - - [24/Nov/2021:16:28:19 +0000] "GET /phpinfo.php HTTP/1.1" 200 25415 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 172.25.0.3:80 172.25.0.1 - - [24/Nov/2021:16:28:19 +0000] "GET /phpinfo.php HTTP/1.1" 200 25415 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 172.25.0.3:80 172.25.0.1 - - [24/Nov/2021:16:28:20 +0000] "GET /phpinfo.php HTTP/1.1" 200 25416 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+172.25.0.3:80 172.25.0.1 - - [24/Nov/2021:16:29:08 +0000] "-" 408 0 "-" "-"
