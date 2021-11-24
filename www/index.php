@@ -42,7 +42,7 @@
 
 
 
-        
+
 
         <div class="col-md-10" id="count()" style="display:none">
             <h2>
@@ -161,12 +161,13 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    
     <script>
-
     function myFunction(div) {
         //alert(div);
-        var x = document.getElementById(div);
 
+        var x = document.getElementById(div);
+        
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {

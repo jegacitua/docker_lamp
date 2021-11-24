@@ -9,3 +9,7 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Wed Nov 24 17:51:56.928164 2021] [:error] [pid 144] [client 172.25.0.1:54858] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
 [Wed Nov 24 17:51:57.109356 2021] [:error] [pid 143] [client 172.25.0.1:54862] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
 [Wed Nov 24 17:51:57.258502 2021] [:error] [pid 145] [client 172.25.0.1:54866] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /var/www/html/index.php on line 4
+[Wed Nov 24 20:53:49.906445 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
+[Wed Nov 24 20:53:50.652058 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
+[Wed Nov 24 20:53:50.821424 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
+[Wed Nov 24 20:53:50.987176 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
