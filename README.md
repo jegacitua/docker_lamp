@@ -1,8 +1,10 @@
 # docker-lamp
 
-Instalar docker
-Instalar 
+Instalar docker para la version de tu sistema operativo
+docker-compose, es proveido por la instalacion de Docker Engine por lo tanto
+revisa con el siguiente comando "docker-compose -v" su versión
 
+DOCKER DEL PROYECTO
 Docker con Apache, MySql 8.0, PhpMyAdmin and PHP 5.6.40
 
 - Puedes usar MariaDB 10.1 si cambias el tag image: por 'mariadb-10.1'
@@ -28,8 +30,7 @@ Ejecute el cliente mysql
 
 A trabajar !
 
-
-Comandos para Git
+COMANDOS PARA GIT
 
 git init
 git status
