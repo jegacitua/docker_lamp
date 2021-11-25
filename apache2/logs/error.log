@@ -13,3 +13,23 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Wed Nov 24 20:53:50.652058 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
 [Wed Nov 24 20:53:50.821424 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
 [Wed Nov 24 20:53:50.987176 2021] [:error] [pid 152] [client 172.25.0.1:56398] PHP Notice:  Undefined variable: os in /var/www/html/index2.php on line 37
+[Wed Nov 24 20:57:25.015223 2021] [:error] [pid 151] [client 172.25.0.1:56414] PHP Parse error:  syntax error, unexpected '=' in /var/www/html/index.php on line 174
+[Wed Nov 24 20:57:26.925763 2021] [:error] [pid 147] [client 172.25.0.1:56416] PHP Parse error:  syntax error, unexpected '=' in /var/www/html/index.php on line 174
+[Wed Nov 24 20:57:27.070300 2021] [:error] [pid 140] [client 172.25.0.1:56420] PHP Parse error:  syntax error, unexpected '=' in /var/www/html/index.php on line 174
+[Wed Nov 24 22:58:12.231075 2021] [:error] [pid 151] [client 172.25.0.1:56604] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Chile', we selected the timezone 'UTC' for now. in /var/www/html/phpinfo.php on line 2
+[Thu Nov 25 11:40:23.231923 2021] [:error] [pid 143] [client 172.25.0.1:56626] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Chile', we selected the timezone 'UTC' for now. in /var/www/html/phpinfo.php on line 2
+[Thu Nov 25 11:40:29.120984 2021] [:error] [pid 146] [client 172.25.0.1:56628] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Chile', we selected the timezone 'UTC' for now. in /var/www/html/phpinfo.php on line 2
+[Thu Nov 25 11:40:32.017970 2021] [:error] [pid 146] [client 172.25.0.1:56628] PHP Warning:  phpinfo(): Invalid date.timezone value 'America/Chile', we selected the timezone 'UTC' for now. in /var/www/html/phpinfo.php on line 2
+[Thu Nov 25 15:06:54.687113 2021] [:error] [pid 143] [client 172.25.0.1:56820] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 15:07:20.668631 2021] [:error] [pid 142] [client 172.25.0.1:56838] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 15:08:01.678752 2021] [:error] [pid 140] [client 172.25.0.1:56858] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 15:08:39.684905 2021] [:error] [pid 152] [client 172.25.0.1:56880] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 15:08:48.194425 2021] [:error] [pid 147] [client 172.25.0.1:56898] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 15:09:09.130118 2021] [:error] [pid 146] [client 172.25.0.1:56918] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 15:09:58.430255 2021] [:error] [pid 151] [client 172.25.0.1:56938] PHP Notice:  Undefined variable: preValor in /var/www/html/index.php on line 33
+[Thu Nov 25 18:32:00.830866 2021] [:error] [pid 152] [client 172.25.0.1:56960] PHP Notice:  Undefined index: .index1. in /var/www/html/index.php on line 171
+[Thu Nov 25 18:34:49.778088 2021] [:error] [pid 142] [client 172.25.0.1:56966] PHP Notice:  Undefined index: .index1. in /var/www/html/index.php on line 172
+[Thu Nov 25 18:39:56.303132 2021] [:error] [pid 152] [client 172.25.0.1:57030] PHP Notice:  Undefined index: .index1. in /var/www/html/index.php on line 173
+[Thu Nov 25 18:40:26.975385 2021] [:error] [pid 149] [client 172.25.0.1:57048] PHP Parse error:  syntax error, unexpected '?>', expecting ']' in /var/www/html/index.php on line 173
+[Thu Nov 25 18:40:28.858307 2021] [:error] [pid 143] [client 172.25.0.1:57050] PHP Parse error:  syntax error, unexpected '?>', expecting ']' in /var/www/html/index.php on line 173
+[Thu Nov 25 19:02:44.338469 2021] [:error] [pid 149] [client 172.25.0.1:57350] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /var/www/html/index.php on line 171

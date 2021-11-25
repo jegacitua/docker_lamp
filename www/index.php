@@ -25,7 +25,7 @@
 				</li>
 
                 <?php
-                $array=array("count()","array()","in_array()","strlen()","substr()","var_dump()","print_r()","explode()","implode()","addslashes()","strtoupper()","strtolower()","md5()","hash()","extract()","array_key_exists()","array_merge()","array_sum()","asort()","arsort()","shuffle()","session_start()","session_destroy()");
+                $array=array('count()','array()','in_array()','strlen()','substr()','var_dump()','print_r()','explode()','implode()','addslashes()','strtoupper()','strtolower()','md5()','hash()','extract()','array_key_exists()','array_merge()','array_sum()','asort()','arsort()','shuffle()','session_start()','session_destroy()');
                 //var_dump($array);
                 foreach ($array as $valor) {
                     ?>
@@ -37,9 +37,6 @@
                 ?>
 			</ul>
 		</div>
-
-
-
 
 
 
@@ -65,7 +62,7 @@
                 ?>
             </div>
             <div class="col-md-6" style="align:left">
-                <button type="button" onclick="myFunction('count()')" class="btn btn-primary btn-sm">
+                <button type="button" onclick="myFunction('')" class="btn btn-primary btn-sm">
 				Cerrar
 			</button>
             </div>
@@ -82,7 +79,7 @@
 
 
 
-
+        
 
         <div class="col-md-10" id="array()" style="display:none">
             <h2>
@@ -100,7 +97,7 @@
                 ?>
             </div>
             <div class="col-md-6" style="align:left">
-                <button type="button" onclick="myFunction('array()')" class="btn btn-primary btn-sm">
+                <button type="button" onclick="myFunction('')" class="btn btn-primary btn-sm">
 				Cerrar
 			</button>
             </div>
@@ -133,6 +130,7 @@
             <div class="col-md-6">
                 Respuesta:
                 <?php
+                
                 $os = array("Mac", "NT", "Irix", "Linux");
     
                 if (in_array("Irix", $os)) {
@@ -141,17 +139,22 @@
                 if (in_array("mac", $os)) {
                     echo "Existe mac";
                 }
+                
                 ?>
             </div>
             <div class="col-md-6" style="align:left">
-                <button type="button" onclick="myFunction('in_array()')" class="btn btn-primary btn-sm">
+                <button type="button" onclick="myFunction('')" class="btn btn-primary btn-sm">
 				Cerrar
 			</button>
             </div>
 
             </div>
 		</div>
+        
 
+
+
+        
 
 
 
@@ -162,19 +165,36 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     
-    <script>
-    function myFunction(div) {
-        //alert(div);
 
-        var x = document.getElementById(div);
+
+
+
+    <script>
+    function myFunction(valor) {
+        var array=[];
+        array=JSON.parse('<?php echo json_encode($array); ?>');
         
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
+        for(var index=0; index < array.length; index++){
+            if(document.getElementById(array[index])){
+                var x = document.getElementById(array[index]);
+                x.style.display = "none"
+            }
+        }
+
+        if(document.getElementById(valor)){
+            var x = document.getElementById(valor);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
         }
     }
     </script>
+
+
+
+
      
 	</body>
 </html>
