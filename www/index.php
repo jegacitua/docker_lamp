@@ -45,7 +45,7 @@
             <h2>
 				count()
 			</h2>
-			<textarea cols='103' rows='10'>
+			<textarea cols='113' rows='10'>
             $a[0] = 1;
             $a[1] = 3;
             $a[2] = 5;
@@ -58,6 +58,7 @@
                 $a[0] = 1;
                 $a[1] = 3;
                 $a[2] = 5;
+
                 var_dump(count($a));
                 ?>
             </div>
@@ -65,6 +66,9 @@
                 <button type="button" onclick="myFunction('')" class="btn btn-primary btn-sm">
 				Cerrar
 			</button>
+            <button type="button" onclick="myFunction('')" class="btn btn-success btn-sm">
+				Ejecutar
+			    </button>
             </div>
 
             </div>
@@ -85,7 +89,7 @@
             <h2>
 				array()
 			</h2>
-			<textarea cols='103' rows='10'>
+			<textarea cols='113' rows='10'>
             
 			</textarea>
 			<br>
@@ -100,6 +104,9 @@
                 <button type="button" onclick="myFunction('')" class="btn btn-primary btn-sm">
 				Cerrar
 			</button>
+            <button type="button" onclick="myFunction('')" class="btn btn-success btn-sm">
+				Ejecutar
+			    </button>
             </div>
 
             </div>
@@ -115,7 +122,7 @@
             <h2>
                 in_array()
 			</h2>
-			<textarea cols='103' rows='10'>
+			<textarea cols='113' rows='10'>
             $os = array("Mac", "NT", "Irix", "Linux");
 
             if (in_array("Irix", $os)) {
@@ -145,7 +152,10 @@
             <div class="col-md-6" style="align:left">
                 <button type="button" onclick="myFunction('')" class="btn btn-primary btn-sm">
 				Cerrar
-			</button>
+			    </button>
+                <button type="button" onclick="myFunction('')" class="btn btn-success btn-sm">
+				Ejecutar
+			    </button>
             </div>
 
             </div>
@@ -154,7 +164,7 @@
 
 
 
-        
+
 
 
 
